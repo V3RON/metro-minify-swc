@@ -1,0 +1,32 @@
+{
+  "name": "metro-minify-swc",
+  "version": "1.0.0-alpha",
+  "description": "Metro bundler minifier implementation using SWC",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm run build"
+  },
+  "keywords": [
+    "metro",
+    "minifier",
+    "swc",
+    "javascript",
+    "bundler"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@swc/core": "^1.4.8",
+    "@swc/types": "^0.1.5",
+    "metro-transform-worker": "^0.81.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "metro": ">=0.80.0"
+  }
+}
