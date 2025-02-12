@@ -18,12 +18,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@swc/core": "^1.4.8",
-    "@swc/types": "^0.1.5",
-    "metro-transform-worker": "^0.81.1"
+    "@swc/core": "^1.10.15"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
+    "metro-transform-worker": "^0.81.1",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {

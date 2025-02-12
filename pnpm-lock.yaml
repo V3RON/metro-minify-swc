@@ -9,21 +9,18 @@ importers:
   .:
     dependencies:
       '@swc/core':
-        specifier: ^1.4.8
+        specifier: ^1.10.15
         version: 1.10.15
-      '@swc/types':
-        specifier: ^0.1.5
-        version: 0.1.17
       metro:
         specifier: '>=0.80.0'
-        version: 0.81.1
-      metro-transform-worker:
-        specifier: ^0.81.1
         version: 0.81.1
     devDependencies:
       '@types/node':
         specifier: ^20.11.24
         version: 20.17.17
+      metro-transform-worker:
+        specifier: ^0.81.1
+        version: 0.81.1
       typescript:
         specifier: ^5.3.3
         version: 5.7.3
@@ -680,8 +677,8 @@ packages:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
 
-  terser@5.38.1:
-    resolution: {integrity: sha512-GWANVlPM/ZfYzuPHjq0nxT+EbOEDDN3Jwhwdg1D8TU8oSkktp8w64Uq4auuGLxFSoNTRDncTq2hQHX1Ld9KHkA==}
+  terser@5.38.2:
+    resolution: {integrity: sha512-w8CXxxbFA5zfNsR/i8HZq5bvn18AK0O9jj7hyo1YqkovLxEFa0uP0LCVGZRqiRaKRFxXhELBp8SteeAjEnfeJg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1276,7 +1273,7 @@ snapshots:
   metro-minify-terser@0.81.1:
     dependencies:
       flow-enums-runtime: 0.0.6
-      terser: 5.38.1
+      terser: 5.38.2
 
   metro-resolver@0.81.1:
     dependencies:
@@ -1488,7 +1485,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  terser@5.38.1:
+  terser@5.38.2:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.14.0
