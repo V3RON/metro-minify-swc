@@ -15,7 +15,7 @@
     "javascript",
     "bundler"
   ],
-  "author": "",
+  "author": "Szymon Chmal <szymon@chmal.it> (https://github.com/V3R0N)",
   "license": "MIT",
   "dependencies": {
     "@swc/core": "^1.10.15"
